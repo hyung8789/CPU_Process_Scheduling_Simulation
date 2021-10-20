@@ -27,4 +27,4 @@ AAA
 <br>
 
 ## < License >
-[This application is licensed under the MIT License.](https://github.com/hyung8789/)</b><br><br>
+[This application is licensed under the MIT License.](./LICENSE)</b><br><br>
