@@ -1,4 +1,4 @@
-# CPU_Process_Scheduling_Simulation
+# CPU Process Scheduling Simulation
 vb
 working
 
@@ -23,6 +23,18 @@ AAA
 
 ## < System Requirement >
 - .Net Framework 4.8
+
+<br>
+
+## < References >
+- 그림으로 배우는 구조와 원리 : 운영체제 개정 3판 (한빛 아카데미)
+- 2021 시나공 정보처리기사 필기 & 실기
+- http://www.soen.kr/book/dotnet/annex/annex4.htm
+- https://en.wikipedia.org/wiki/Process_state
+- https://docs.oracle.com/cd/E19683-01/816-5042/psched-16/index.html
+- https://examradar.com/process-scheduling-algorithm-fcfs-first-come-first-serve-questions-answers/
+- https://www.studytonight.com/operating-system/highest-response-ratio-next-hrrn-scheduling
+- MSDN .net Example
 
 <br>
 
