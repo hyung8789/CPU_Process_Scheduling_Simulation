@@ -124,7 +124,7 @@ flow 및 다이어그램 여기 추가
     3) Highest Response-Ratio Next (비선점형) : (대기시간+실행시간) / 실행시간으로 우선순위 할당하여 높은 순으로 처리
     4) Priority-based scheduling (비선점형) : 초기 할당 된 우선순위를 이용하는 고정 우선순위 기반 스케줄링
     5) Shortest Remaining Time Next (선점형) : 미리 정의 된 Time Quantum 만큼 실행 후 남은 실행시간이 제일 짧은 순으로 처리, SJF의 선점형
-    6) Round-Robin (선점형) : 미리 정의 된 Time Quantum 만큼 돌아가며 처리
+    6) Round-Robin (선점형) : 미리 정의 된 Time Quantum 만큼 모든 프로세스에 대해 돌아가며 처리
     7) Priority-based scheduling (선점형) : 초기 할당 된 우선순위를 이용하는 고정 우선순위 기반 스케줄링
 
 #### - Option for Process Scheduling
