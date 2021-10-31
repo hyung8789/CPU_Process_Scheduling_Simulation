@@ -1,12 +1,12 @@
 # CPU Process Scheduling Simulation
 <img src="./res/icons8-processor-96.png"><br></br>
-Implementaion of FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin
+Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin)
 
 <br>
 
 ## < For What & How it works >
 
-#### 1. 프로그램의 목표
+### 1. 프로그램의 목표
 
     각 스케줄링 알고리즘 (FCFS, SJF, HRRN, Priority-based scheduling, SRTN, RR)에 따라,
 
@@ -28,7 +28,7 @@ Implementaion of FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin
     현재 준비 큐에 대기 중인 프로세스가 없으며, 또한 현재 CPU의 자원을 할당받은 프로세스가 없는 상태이다. 
     이 동안 CPU는 다음 프로세스가 도착할 때 까지 아무런 작업도 하지 않고 대기한다.
 
-#### 2. 개요
+### 2. 개요
 
 ##### 2-1. 프로세스 (Process)
 
@@ -43,17 +43,18 @@ Implementaion of FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin
     ※ 실제 프로세스의 상태에는 추가적으로 I/O 작업과 같은 처리를 위한 중지(BLOCKED) 상태가 존재하며, 실행 상태에서 I/O 작업 발생 시 중단 상태로 전이되지만, 이는 단순화하기 위해 생략하며, 
     선점형 스케줄링에서 프로세스 간 선점을 위한 문맥교환이 발생할 경우 강제로 실행 상태에서 준비 상태로 전이한다.
 
-    < 스케줄링을 위한 프로세스 정보 >
+    < 프로세스 정보 >
 
     1) 도착시간 : 프로세스가 준비 큐에 도착하는 시간
     2) 실행시간 : 프로세스가 자신의 작업을 수행하는데 걸리는 시간
     3) 대기시간 : 프로세스가 준비 큐에서 대기 중인 시간
     4) 반환시간 : 프로세스가 대기하였다가 자신의 작업을 모두 마치고 종료 상태로 전이되는데 걸린 총 시간 (대기시간 + 실행시간)
     5) 우선순위 : 스케줄링 과정에서 먼저 자원이 할당되는 우선권으로서 높을수록 자원 할당 우선권을 획득한다. (ex: 우선순위 5는 우선순위 0보다 실행 우선권을 갖는다.)
-    6) 평균 실행시간, 평균 대기시간, 평균 반환시간 : 전체 프로세스 수에 대한 평균 값
 
 ##### 2-2. 프로세스 스케줄링 (Process Scheduling)
     여러 프로세스가 번갈아 사용하는 CPU의 자원을 어떤 시점에 어떤 프로세스에 할당할지 결정하는 것
+    CPU(또는 코어) 당 최대 프로세스 하나만 처리(실행) 할 수 있으며, 실행을 위해 대기 중인 프로세스는 준비 큐에서 기다리게 된다. 
+    현대의 컴퓨터는 다중 CPU(또는 다중 코어)로 병렬처리를 수행하지만, 문제를 단순화하기 위해 단일 CPU(또는 단일 코어) 시스템을 가정한다.
 
 ##### 2-3. 스케줄링의 목적
 
@@ -102,6 +103,8 @@ Implementaion of FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin
     실제 CPU의 자원을 프로세스에 할당하기 위한 스케줄링 동작과정에 도착 큐라는 개념이 존재하지 않지만, 각 프로세스 별 도착시간을 할당하여 시뮬레이션 하는 상황을 사용자가 각 프로세스의 도착시간에 따라 도착시간에 해당하는 프로세스를 
     실행한다고 가정하여 프로세스가 CPU의 자원을 할당받기 위해 프로세스 준비 큐로 들어가는 상황을 만들기 위해 도착 큐를 별도로 사용하였다.
 
+flow 및 다이어그램 여기 추가
+
 <br>
 
 ## < Features >
@@ -124,7 +127,10 @@ Implementaion of FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin
 <br>
 
 ## < Demo & Screenshot >
-
+메인폼
+옵션폼
+프로세스 추가 폼
+각 기능 별
 
 <br>
 
