@@ -61,7 +61,7 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 
     프로세스 스케줄링은 여러 프로세스가 번갈아 사용하는 CPU(프로세서)의 자원을 어떤 시점에 어떤 프로세스에 할당할지 결정하는 것으로서,
     위, Fig 2) Windows 환경의 작업 관리자를 보면 여러 프로세스들이 수행되고 있음을 알 수 있다.
-    하지만, 프로세서(혹은 코어) 당 최대 프로세스 하나만 처리(실행) 할 수 있으며, 실행을 위해 대기 중인 프로세스는 준비 큐에서 기다리게 된다. 
+    프로세서(혹은 코어) 당 최대 프로세스 하나만 처리(실행) 할 수 있으며, 실행을 위해 대기 중인 프로세스는 준비 큐에서 기다리게 된다. 
     현대의 컴퓨터는 다중 프로세서(혹은 다중 코어) 및 하이퍼스레딩 기술(단일 물리적 프로세서 코어가 논리 프로세서가 두 개인 것처럼 작동하는 기술)등으로 병렬처리를 수행하지만,
     문제를 단순화하기 위해 한 번에 하나의 프로세스만 처리 할 수 있는 단일 프로세서(혹은 단일 코어) 시스템을 가정한다.
 
@@ -157,16 +157,16 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 ## < Demo & Screenshot >
 
 <p align="center"> <img src="./설계/MainForm.PNG"></p>
-<p align="center"><b><u>Fig 7) 메인 폼</u></b></p>
+<p align="center"><b><u>Fig 7) Main Form</u></b></p>
 
 <p align="center"> <img src="./설계/OptionForm.PNG"></p>
-<p align="center"><b><u>Fig 8) 옵션 폼</u></b></p>
+<p align="center"><b><u>Fig 8) Option Dialog Form</u></b></p>
 
 <p align="center"> <img src="./설계/AddProcessForm.PNG"></p>
-<p align="center"><b><u>Fig 9) 프로세스 추가 폼</u></b></p>
+<p align="center"><b><u>Fig 9) Add Process Dialog Form</u></b></p>
 
 <p align="center"> <img src="./설계/run.PNG"></p>
-<p align="center"><b><u>Fig 10) 실행 결과</u></b></p>
+<p align="center"><b><u>Fig 10) Process Scheduling Result</u></b></p>
 
 <br>
 
@@ -183,7 +183,7 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 - https://docs.oracle.com/cd/E19683-01/816-5042/psched-16/index.html
 - https://examradar.com/process-scheduling-algorithm-fcfs-first-come-first-serve-questions-answers/
 - https://www.studytonight.com/operating-system/highest-response-ratio-next-hrrn-scheduling
-- MSDN .net Example
+- MSDN .Net Example
 
 <br>
 
