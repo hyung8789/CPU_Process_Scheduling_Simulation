@@ -111,27 +111,22 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
     실제 CPU의 자원을 프로세스에 할당하기 위한 스케줄링 동작과정에 도착 큐라는 개념이 존재하지 않지만, 각 프로세스 별 도착시간을 할당하여 시뮬레이션 하는 상황을 사용자가 각 프로세스의 도착시간에 따라 도착시간에 해당하는 프로세스를 
     실행한다고 가정하여 프로세스가 CPU의 자원을 할당 받기 위해 프로세스 준비 큐로 들어가는 상황을 만들기 위해 도착 큐를 별도로 사용하였다.
 
-### 3. 프로그램 흐름
+### 3. 설계
 
-<p align="center"> <img src="./설계/설계-Main Flow.drawio.png"></p>
-<p align="center"><b><u>Fig 3) Main Flow</u></b></p>
+<p align="center"> <img src="./설계/UI Design (Mockup).drawio.png"></p>
+<p align="center"><b><u>Fig 3) UI Design (Mockup)</u></b></p>
 
-    test
+<p align="center"> <img src="./설계/Main Flow.drawio.png"></p>
+<p align="center"><b><u>Fig 4) Main Flow</u></b></p>
 
-<p align="center"> <img src="./설계/설계-Process Arrival Event & Pre-processing Proc.drawio.png"></p>
-<p align="center"><b><u>Fig 4) Process Arrival Event & Pre-processing Proc</u></b></p>
+<p align="center"> <img src="./설계/Process Arrival Event & Pre-processing Proc.drawio.png"></p>
+<p align="center"><b><u>Fig 5) Process Arrival Event & Pre-processing Proc</u></b></p>
 
-    t
+<p align="center"> <img src="./설계/CPU Processing Proc.drawio.png"></p>
+<p align="center"><b><u>Fig 6) CPU Processing Proc</u></b></p>
 
-<p align="center"> <img src="./설계/설계-CPU Processing Proc.drawio.png"></p>
-<p align="center"><b><u>Fig 5) CPU Processing Proc</u></b></p>
-
-    a
-
-<p align="center"> <img src="./설계/설계-Process - DoSelfProcessJob.drawio.png"></p>
-<p align="center"><b><u>Fig 6) Process - DoSelfProcessJob</u></b></p>
-
-    ab
+<p align="center"> <img src="./설계/Process - DoSelfProcessJob.drawio.png"></p>
+<p align="center"><b><u>Fig 7) Process - DoSelfProcessJob</u></b></p>
 
 <br>
 
@@ -150,7 +145,7 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 
     1) Ignore Option for ignoring User Input Process's Prioirty (or not)
     2) Ignore Option for ignoring User Input Process's Arrival Time (or not)
-    3) Time Quantum Option for Preemptive Scheduling
+    3) Time Quantum Option for Preemptive Scheduling (1 ~ 32767)
     
 <br>
 

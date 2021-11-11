@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CPU_Process_Scheduling_Simulation.AddProcessForm">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AQAAQABAACAhEAoAEQTCAACCAAAAAAIAAQACAYAQAAA=</HashCode>
+      <FileName>AddProcessForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.CPUArgs">
+    <Position X="10" Y="7.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CPU_Process_Scheduling_Simulation.CPUArgs.SCHEDULING_TYPE">
+        <TypeIdentifier>
+          <NewMemberFileName>classes\CPUArgs.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAIgAIAAAAAIAAAAAAEAAEAAAAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>classes\CPUArgs.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.ProcessQueue">
+    <Position X="17" Y="0.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CPU_Process_Scheduling_Simulation.ProcessQueue.VALIDATION_MODE">
+        <TypeIdentifier>
+          <NewMemberFileName>classes\ProcessQueue.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CPU_Process_Scheduling_Simulation.ProcessQueue.ORDER_TYPE_FLAG">
+        <TypeIdentifier>
+          <NewMemberFileName>classes\ProcessQueue.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAABEAAAAAAAAIAAAAAAABAAFAACCAAAIMAA=</HashCode>
+      <FileName>classes\ProcessQueue.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.ResultManager">
+    <Position X="14.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CPU_Process_Scheduling_Simulation.ResultManager.UPDATE_MODE">
+        <TypeIdentifier>
+          <NewMemberFileName>classes\ResultManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>classes\ResultManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.MainForm">
+    <Position X="4.75" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AZEAAAFsYCAkAIBkCASAAQCCSgAFAAGEIJCaBCgAiSA=</HashCode>
+      <FileName>MainForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.OptionForm">
+    <Position X="9.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGBQACAgBAoABAGACgAKAAAAEAABAwADAIAQAAA=</HashCode>
+      <FileName>OptionForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.CPU">
+    <Position X="13.25" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAICAAAAAEAIAEAIAAgAAAAAAAAAAAACAEAAAAA=</HashCode>
+      <FileName>classes\CPU.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPU_Process_Scheduling_Simulation.Process">
+    <Position X="17" Y="7.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CPU_Process_Scheduling_Simulation.Process.PROCESS_STATE">
+        <TypeIdentifier>
+          <NewMemberFileName>classes\Process.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQIAJACABQAQABAAAAAAAFQAAAACgAAAADBAAARBA=</HashCode>
+      <FileName>classes\Process.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
