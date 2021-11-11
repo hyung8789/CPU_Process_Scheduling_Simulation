@@ -152,16 +152,16 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 ## < Demo & Screenshot >
 
 <p align="center"> <img src="./설계/MainForm.PNG"></p>
-<p align="center"><b><u>Fig 7) Main Form</u></b></p>
+<p align="center"><b><u>Fig 8) Main Form</u></b></p>
 
 <p align="center"> <img src="./설계/OptionForm.PNG"></p>
-<p align="center"><b><u>Fig 8) Option Dialog Form</u></b></p>
+<p align="center"><b><u>Fig 9) Option Dialog Form</u></b></p>
 
 <p align="center"> <img src="./설계/AddProcessForm.PNG"></p>
-<p align="center"><b><u>Fig 9) Add Process Dialog Form</u></b></p>
+<p align="center"><b><u>Fig 10) Add Process Dialog Form</u></b></p>
 
 <p align="center"> <img src="./설계/run.PNG"></p>
-<p align="center"><b><u>Fig 10) Process Scheduling Result</u></b></p>
+<p align="center"><b><u>Fig 11) Process Scheduling Result</u></b></p>
 
 <br>
 
