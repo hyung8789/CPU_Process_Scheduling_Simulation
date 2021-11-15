@@ -1,8 +1,8 @@
 # CPU Process Scheduling Simulation
-<img src="./res/icons8-processor-96.png"><br></br>
+<img src="./res/icons8-processor-96.png"><br /><br />
 Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based scheduling, SRTN, Round-Robin)
 
-<br>
+<br />
 
 ## < For What & How it works >
 
@@ -116,19 +116,27 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 <p align="center"> <img src="./설계/UI Design (Mockup).drawio.png"></p>
 <p align="center"><b><u>Fig 3) UI Design (Mockup)</u></b></p>
 
+<br />
+
 <p align="center"> <img src="./설계/Main Flow.drawio.png"></p>
 <p align="center"><b><u>Fig 4) Main Flow</u></b></p>
+
+<br />
 
 <p align="center"> <img src="./설계/Process Arrival Event & Pre-processing Proc.drawio.png"></p>
 <p align="center"><b><u>Fig 5) Process Arrival Event & Pre-processing Proc</u></b></p>
 
+<br />
+
 <p align="center"> <img src="./설계/CPU Processing Proc.drawio.png"></p>
 <p align="center"><b><u>Fig 6) CPU Processing Proc</u></b></p>
+
+<br />
 
 <p align="center"> <img src="./설계/Process - DoSelfProcessJob.drawio.png"></p>
 <p align="center"><b><u>Fig 7) Process - DoSelfProcessJob</u></b></p>
 
-<br>
+<br />
 
 ## < Features >
 #### - Supported Scheduling Type
@@ -147,7 +155,7 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
     2) Ignore Option for ignoring User Input Process's Arrival Time (or not)
     3) Time Quantum Option for Preemptive Scheduling (1 ~ 32767)
     
-<br>
+<br />
 
 ## < Demo & Screenshot >
 
@@ -163,12 +171,12 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 <p align="center"> <img src="./설계/run.PNG"></p>
 <p align="center"><b><u>Fig 11) Process Scheduling Result</u></b></p>
 
-<br>
+<br />
 
 ## < System Requirement >
 - .Net Framework 4.8
 
-<br>
+<br />
 
 ## < References >
 - 그림으로 배우는 구조와 원리 : 운영체제 개정 3판 (한빛 아카데미)
@@ -180,7 +188,7 @@ Implementaion of Process Scheduling Algorithm (FCFS, SJF, HRRN, Priority-based s
 - https://www.studytonight.com/operating-system/highest-response-ratio-next-hrrn-scheduling
 - MSDN .Net Example
 
-<br>
+<br />
 
 ## < License >
-[This application is licensed under the MIT License.](./LICENSE)</b><br><br>
+[This application is licensed under the MIT License.](./LICENSE)</b><br /><br />
